@@ -1,6 +1,8 @@
 # CocoaPods Specs
 
-Install pod specs with the [`source` directive](https://guides.cocoapods.org/syntax/podfile.html#source) in your `Podfile`:
+## Usage
+
+Install pods with the [`source` directive](https://guides.cocoapods.org/syntax/podfile.html#source) in the `Podfile`:
 
 ```ruby
 pod 'FooBar', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git'
