@@ -1,0 +1,23 @@
+{
+  "name": "RSSwizzle",
+  "version": "0.1.100",
+  "summary": "Safe method swizzling done right.",
+  "homepage": "https://github.com/ElfSundae/RSSwizzle",
+  "license": "MIT",
+  "authors": {
+    "Yan Rabovik": "yan@rabovik.ru"
+  },
+  "source": {
+    "git": "https://github.com/ElfSundae/RSSwizzle.git",
+    "tag": "0.1.100"
+  },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "source_files": "RSSwizzle/**/*.{h,m}",
+  "frameworks": "Foundation",
+  "requires_arc": true
+}
