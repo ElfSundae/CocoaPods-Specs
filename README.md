@@ -12,7 +12,7 @@ pod 'SocketRocket', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git
 
 ```ruby
 source 'https://github.com/ElfSundae/CocoaPods-Specs.git'
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 
 target 'Example' do
     pod 'SocketRocket'
