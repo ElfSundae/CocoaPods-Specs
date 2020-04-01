@@ -1,4 +1,4 @@
-# CocoaPods Specs
+# CocoaPods Private Specs Repo
 
 ## Usage
 
