@@ -1,0 +1,19 @@
+{
+  "name": "XWCountryCode",
+  "version": "0.1.0",
+  "license": "Apache License 2.0",
+  "summary": "International area code.",
+  "homepage": "https://github.com/qxuewei/XWCountryCode",
+  "authors": {
+    "qxuewei": "https://github.com/qxuewei"
+  },
+  "source": {
+    "git": "https://github.com/qxuewei/XWCountryCode.git",
+    "commit": "5000bd0cc70c64dca9f2c5fb25b8360f7031f779"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XWCountryCode/*.{h,m}",
+  "resources": "XWCountryCode/*.plist"
+}
