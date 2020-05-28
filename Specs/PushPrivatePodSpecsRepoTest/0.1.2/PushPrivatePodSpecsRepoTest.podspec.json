@@ -1,0 +1,18 @@
+{
+  "name": "PushPrivatePodSpecsRepoTest",
+  "version": "0.1.2",
+  "license": "MIT",
+  "summary": "A CocoaPods demo project to test pushing podspec to a private specs repo via GitHub Actions.",
+  "homepage": "https://github.com/ElfSundae/PushPrivatePodSpecsRepoTest",
+  "authors": {
+    "Elf Sundae": "https://0x123.com"
+  },
+  "source": {
+    "git": "https://github.com/ElfSundae/PushPrivatePodSpecsRepoTest.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PushPrivatePodSpecsRepoTest.m"
+}
