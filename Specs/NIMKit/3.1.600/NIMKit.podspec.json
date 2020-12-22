@@ -1,0 +1,95 @@
+{
+  "name": "NIMKit",
+  "version": "3.1.600",
+  "summary": "Netease IM UI Kit",
+  "homepage": "http://netease.im",
+  "license": {
+    "type": "Copyright",
+    "text": " Copyright 2019 Netease "
+  },
+  "authors": "Netease IM Team",
+  "source": {
+    "git": "https://github.com/ElfSundae/NIM_iOS_UIKit.git",
+    "tag": "3.1.600"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "CoreText",
+    "SystemConfiguration",
+    "AVFoundation",
+    "CoreTelephony",
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "z",
+    "c++"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "default_subspecs": "Lite",
+  "subspecs": [
+    {
+      "name": "Lite",
+      "source_files": "NIMKit/NIMKit/**/*.{h,m}",
+      "dependencies": {
+        "NIMKit/Core": [
+
+        ],
+        "NIMSDK_LITE": [
+          "~> 8.1.5"
+        ]
+      }
+    },
+    {
+      "name": "Full",
+      "source_files": "NIMKit/NIMKit/**/*.{h,m}",
+      "dependencies": {
+        "NIMKit/Core": [
+
+        ],
+        "NIMSDK": [
+          "~> 8.1.5"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "resources": "NIMKit/Resources/*.*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 5.1"
+        ],
+        "FLAnimatedImage": [
+          "~> 1.0"
+        ],
+        "Toast": [
+          "~> 4.0"
+        ],
+        "TZImagePickerController": [
+          "~> 3.0"
+        ],
+        "M80AttributedLabel": [
+          "~> 1.9"
+        ],
+        "YYImage": [
+          "~> 1.1"
+        ],
+        "YYImage/WebP": [
+
+        ],
+        "UICollectionViewLeftAlignedLayout": [
+          "~> 1.0"
+        ]
+      }
+    }
+  ]
+}
