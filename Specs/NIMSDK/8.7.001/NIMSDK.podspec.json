@@ -1,0 +1,40 @@
+{
+  "name": "NIMSDK",
+  "version": "8.7.001",
+  "summary": "Netease IM SDK",
+  "homepage": "http://netease.im",
+  "license": {
+    "type": "Copyright",
+    "text": " Copyright 2021 Netease "
+  },
+  "authors": "Netease IM Team",
+  "source": {
+    "git": "https://e.coding.net/ssl/XCFrameworks/NIMSDK.git",
+    "tag": "8.7.001"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "NIMSDK/**/NIMSDK.xcframework",
+    "NIMSDK/**/NIMAVChat.xcframework",
+    "NIMSDK/**/NMC.xcframework",
+    "NIMSDK/**/NMCBasicModuleFramework.xcframework"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "AVFoundation",
+    "CoreTelephony",
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "z",
+    "c++"
+  ],
+  "resources": [
+    "NIMSDK/**/Resources/NMCVideoFilter.bundle"
+  ]
+}
