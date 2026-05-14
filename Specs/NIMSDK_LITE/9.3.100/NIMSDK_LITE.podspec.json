@@ -1,0 +1,33 @@
+{
+  "name": "NIMSDK_LITE",
+  "version": "9.3.100",
+  "summary": "Netease IM Lite SDK",
+  "homepage": "http://netease.im",
+  "license": {
+    "type": "Copyright",
+    "text": " Copyright 2021 Netease "
+  },
+  "authors": "Netease IM Team",
+  "source": {
+    "http": "https://github.com/ElfSundae/XCFrameworks/releases/download/NIMSDK_LITE/NIMSDK_LITE_v9.3.100.zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "**/NIMSDK.xcframework"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "AVFoundation",
+    "CoreTelephony",
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "z",
+    "c++"
+  ]
+}
